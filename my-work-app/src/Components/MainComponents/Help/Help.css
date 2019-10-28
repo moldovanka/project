@@ -1,0 +1,41 @@
+.hepl_header {
+    color: #fff;
+    margin: 20px 0px 50px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+.hepl_header .deliver {
+    width: 30px;
+    margin: 20px auto 0px;
+    border-bottom: 1px solid #fa2276;
+
+}
+.help_tabs_panel {
+    display: flex;
+    border-bottom: 1px solid #1b1b1b;
+}
+.help_tabs_panel p {
+    color: #bdc3d3;
+    border: 0px;
+    padding: 10px 0px;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 50px;
+    border-bottom: 1px solid #1b1b1b;
+}
+.help_tabs_panel p.active {
+    color: #fff;
+    border-bottom: 2px solid #fa2276;
+}
+.help_content {
+    margin: 30px 0px 50px;
+}
+.help_content_body {
+    color: #bdc3d3;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+}

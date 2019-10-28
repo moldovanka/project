@@ -1,0 +1,42 @@
+.privacy_accordion {
+    border-radius: 3px;
+    background-color: #1b1b1b;
+}
+.privacy_item_header {
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 400;
+    border-bottom: 1px solid #000;
+}
+.privacy_item_body {
+    display: none;
+    padding: 10px 20px 15px;
+    border-bottom: 1px solid #000;
+}
+.privacy_item_body.show {
+    display: block;
+    transition: all 1.5s;
+}
+.privacy_item_body p {
+    color: #bdc3d3;
+    font-size: 14px;
+    line-height: 26px;
+}
+.privacy_btn {
+    color: #fff;
+    width: 130px;
+    border: 0px;
+    height: 40px;
+    font-size: 14px;
+    background: #fa2276;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.privacy_btn:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #1b1b1b;
+}

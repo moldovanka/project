@@ -1,0 +1,57 @@
+.user_header_panel_block {
+    min-width: 200px;
+    display: flex;
+    position: relative;
+    background: #1b1b1b;
+    text-align: center;
+    justify-content: center;
+}
+.user_header_panel_icon {
+    color: #bdc3d3;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.user_header_panel_icon:hover {
+    color: #fff;
+}
+.user_header_panel_name {
+    color: #bdc3d3;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.user_header_panel_name:hover {
+    color: #fff;
+}
+.user_header_panel_menu {
+    top: 45px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    border-top: 0;
+    box-shadow: inset 0px 4px 8px -3px rgba(17, 17, 17, .06);
+    border-left: 1px solid #1b1b1b;
+    border-right: 1px solid #1b1b1b;
+    border-bottom: 1px solid #1b1b1b;
+    border-radius: 0px;
+    background-color: #1b1b1b;
+}
+.user_header_panel_menu a {
+    color: #bdc3d3;
+    display: block;
+    padding: 12px 20px;
+}
+.user_header_panel_menu a:hover {
+    color: #fff;
+    background: #000;
+    border-left: 2px solid #fa2276;
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .user_header_panel_block{
+        min-width: 175px;
+    }
+}
+@media (max-width: 575.98px) {
+    .user_header_panel_block{
+        min-width: 150px;
+    }
+}

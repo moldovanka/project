@@ -1,0 +1,69 @@
+.notifier_box {
+    left: 0;
+    top: 45px;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    background: #1b1b1b;
+    border-top: 0px;
+    box-shadow: inset 0px 4px 8px -3px rgba(17, 17, 17, .06);
+    max-height: 196px;
+    border-left: 1px solid #1b1b1b;
+    border-right: 1px solid #1b1b1b;
+    border-bottom: 1px solid #1b1b1b;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.notifier_message {
+    cursor: pointer;
+    display: flex;
+    padding: 15px 10px;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+.notifier_message:hover {
+    background: #000;
+}
+.notifier_message_link {
+    padding-right: 15px;
+}
+.notifier_message_avatar {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.notifier_message_info {
+    width: 100%;
+    position: relative;
+    padding: 15px 0px;
+}
+.notifier_message_info>h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.notifier_message_info>a {
+    color: #bdc3d3;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 145px;
+    overflow: hidden;
+    transition: all .3s;
+}
+.notifier_message_info>a:hover {
+    color: #fa2276;
+}
+.notifier_message_info>p{
+    top: -5px;
+    color: #bdc3d3;
+    right: 0px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+}

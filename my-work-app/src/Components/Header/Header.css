@@ -1,0 +1,110 @@
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+    background: #1b1b1b;
+    min-height: 70px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_blocks {
+    display: flex;
+    align-items: center;
+}
+.header_hamburger {
+    color: #bdc3d3;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.header_hamburger:hover {
+    color: #fff;
+}
+.header_logo {
+    padding: 0 0 0 10px;
+}
+.header_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fa2276;
+    height: 34px;
+    padding: 0px 15px;
+    font-size: 14px;
+    background: #f24f86;
+    font-weight: 400;
+    border-radius: 3px;
+}
+.header_btn:hover {
+    color: #fff;
+    background: #434f74;
+    border: 1px solid transparent;
+}
+.header_btn_icon {
+    padding-right: 5px;
+}
+.header_notification_list {
+    min-width: 250px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.header_search {
+    min-width: 310px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header_notification_list{
+        min-width: 200px;
+    }
+    .header_search {
+        min-width: 200px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header_blocks.search {
+        display: none;
+    }
+    .header_logo {
+        width: 135px;
+    }
+    .header_btn {
+        padding: 0px 10px;
+    }
+    .header_notification_list {
+        min-width: 230px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header_blocks.search {
+        display: none;
+    }
+    .header_logo {
+        width: 135px;
+    }
+    .header_btn {
+        display: none;
+    }
+    .header_notification_list {
+        min-width: 225px;
+        margin: 0px;
+    }
+}
+@media (max-width: 575.98px) {
+    .header_blocks.search {
+        display: none;
+    }
+    .header_logo {
+        width: 100px;
+    }
+    .header_btn {
+        display: none;
+    }
+    .header_notification_list {
+        display: none;
+    }
+}

@@ -1,0 +1,45 @@
+.users_dialog_box {
+    border: 1px solid #1b1b1b;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    background: #1b1b1b;
+}
+.users_dialog_search {
+    position: relative;
+}
+.users_dialog_search input {
+    width: 100%;
+    padding: 20px 65px;
+    border-bottom: 1px solid #000;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 14px;
+    background: #1b1b1b;
+    color: #bdc3d3;
+}
+.users_dialog_search input:focus{
+    outline: 1px solid #fa2276;
+}
+.users_dialog_users_slider {
+    display: none;
+}
+@media (max-width: 575.98px) {
+    .users_dialog_box {
+        margin-bottom: 35px;
+    }
+    .users_dialog_users {
+        display: none;
+    }
+    .users_dialog_users_slider {
+        display: block;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .users_dialog_users {
+        display: none;
+    }
+    .users_dialog_users_slider {
+        display: block;
+    }
+}

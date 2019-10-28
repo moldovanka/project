@@ -1,0 +1,9 @@
+.badge_notification {
+    cursor: pointer;
+}
+.badge_notification_icon {
+    color: #bdc3d3;
+}
+.badge_notification_icon:hover {
+    color: #fff;
+}

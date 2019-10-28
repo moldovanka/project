@@ -1,0 +1,49 @@
+.user_dialog_box {
+    border-bottom: 1px solid rgba(0,0,0,0.8);
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.user_dialog_info {
+    display: flex;
+    align-items: center;
+}
+.user_dialog_avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0px 10px 0px 0px;
+}
+.user_dialog_data {
+    padding: 6px 5px;
+}
+.user_dialog_data>.name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+}
+.user_dialog_data>.last_message {
+    font-size: 13px;
+    padding-top: 7px;
+    font-weight: 400;
+    color: #bdc3d3;
+    max-width: 165px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.user_dialog_message_time {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #bdc3d3;
+    font-weight: 500;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .user_dialog_avatar {
+        width: 35px;
+        height: 35px;
+        margin: 0px 5px 0px 0px;
+    }
+}

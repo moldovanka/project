@@ -1,0 +1,123 @@
+.dashboard_header_box {
+    padding: 50px 0px;
+    background: #1b1b1b;
+}
+.dashboard_header_avatar {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.dashboard_header_avatar>.avatar {
+    width: 120px;
+    border: 2px solid #fff;
+    height: 120px;
+    background: #fff;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    border-radius: 5px;
+}
+.dashboard_header_avatar input {
+    display: none;
+    opacity: 0;
+}
+.dashboard_header_avatar label {
+    bottom: -25px;
+    position: absolute;
+}
+.dashboard_header_avatar_upload {
+    width: 36px !important;
+    cursor: pointer;
+    height: 36px !important;
+    padding: 7px;
+    background: #fa2276;
+    border-radius: 50px;
+}
+.dashboard_header_avatar_upload:hover {
+    border: 2px solid #fff;
+    padding: 10px;
+    font-size: 12px;
+    background: #434f74;
+}
+.dashboard_header_name {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.dashboard_header_location {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.dashboard_header_location .icon {
+    color: #fa2276;
+    font-size: 16px;
+    margin-right: 3px;
+}
+.dashboard_header_info {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.dashboard_header_info_item {
+    padding: 0px 15px;
+    text-align: center;
+}
+.dashboard_header_info_item:nth-child(2) {
+    border-left: 1px solid #556082;
+    border-right: 1px solid #556082;
+}
+.dashboard_header_info_item>.count {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.dashboard_header_info_item>.name {
+    color: #bdc3d3;
+    font-size: 14px;
+    font-weight: 400;
+}
+.dashboard_header_buttons {
+    display: flex;
+    justify-content: center;
+}
+.dashboard_header_button {
+    color: #fff;
+    width: 120px;
+    border: 0;
+    margin: 0 10px;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    background: #fa2276;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+.dashboard_header_button:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background: #1b1b1b;
+}
+@media (max-width: 575.98px) {
+    .dashboard_header_box {
+        padding: 30px 0px;
+    }
+    .dashboard_header_avatar>.avatar {
+        width: 90px;
+        height: 90px;
+    }
+    .dashboard_header_info {
+        margin: 15px 0px 20px;
+    }
+    .dashboard_header_info_item>.count {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+}

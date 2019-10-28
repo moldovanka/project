@@ -1,0 +1,18 @@
+.notification_box {
+    background: #1b1b1b;
+    border-top: 1px solid #1b1b1b;
+    border-left: 1px solid #1b1b1b;
+    border-right: 1px solid #1b1b1b;
+}
+.notification_item_box {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    justify-content: space-between;
+}
+.notification_item_box p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}

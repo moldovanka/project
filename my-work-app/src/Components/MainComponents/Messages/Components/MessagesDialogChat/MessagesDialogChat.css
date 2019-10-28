@@ -1,0 +1,97 @@
+.dialog_chat_box {
+    width: 100%;
+    background-color: #1b1b1b;
+    border: 1px solid #1b1b1b;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+.dialog_chat_header {
+    display: flex;
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+.dialog_chat_header>.avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.dialog_chat_header_info {
+    padding-left: 13px;
+}
+.dialog_chat_header_info>.name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.dialog_chat_header_info>.status {
+    color: #bdc3d3;
+    font-size: 13px;
+    font-weight: 500;
+}
+.dialog_chat_body {
+    height: 400px;
+    overflow: auto;
+    padding: 20px 15px;
+}
+.dialog_chat_footer {
+    background-color: #1b1b1b;
+    padding: 15px 20px;
+    border-top: 1px solid #000;
+}
+.dialog_chat_form {
+    display: flex;
+    align-items: center;
+}
+.dialog_chat_form input {
+    width: 85%;
+    background-color: #1b1b1b;
+    color: #bdc3d3;
+    font-size: 14px;
+    padding: 0px 15px;
+    height: 40px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #bdc3d3;
+}
+.dialog_chat_form input:focus {
+    outline: none;
+    border-bottom: 1px solid #fa2276;
+}
+.dialog_chat_form button {
+    width: 15%;
+    background-color: #fa2276;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    border: 0px;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+.dialog_chat_form button:hover {
+    transition: all .3s;
+    background: #1b1b1b;
+    border: 1px solid #fff;
+    color: #fff;
+}
+@media (max-width: 575.98px) {
+    .dialog_chat_form input {
+        width: 58%;
+    }
+    .dialog_chat_form button {
+        width: 35%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .dialog_chat_form input {
+        width: 65%;
+    }
+    .dialog_chat_form button {
+        width: 30%;
+    }
+}

@@ -1,0 +1,96 @@
+.listing_search_filter_box {
+    width: 100%;
+    border: 1px solid #1b1b1b;
+    background: #1b1b1b;
+    margin-bottom: 10px;
+}
+.listing_search_filter_box_header {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #1b1b1b;
+    justify-content: space-between;
+}
+.listing_search_filter_box_header h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.listing_search_filter_box_header span {
+    color: #bdc3d3;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.listing_search_filter_box_body {
+    padding: 10px 20px;
+}
+.listing_search_filter_box_body_item {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.listing_search_filter_box_body_input {
+    color: #fff;
+    width: 100%;
+    outline: none;
+    padding: 15px;
+    position: relative;
+    font-size: 12px;
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    font-weight: 400;
+    border-right: 0px;
+    border-bottom: 1px solid #343434;
+}
+.listing_search_filter_box_body_input:focus {
+    border-bottom: 1px solid #fa2276;
+}
+.listing_search_filter_box_body_input::placeholder {
+    color: #fff;
+}
+.listing_search_filter_box_body_icon {
+    top: 15px;
+    right: 15px;
+    position: absolute;
+}
+.listing_search_filter_box_body_category {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    cursor: pointer;
+    background-color: #000;
+}
+.listing_search_filter_box_body_category p {
+    color: #bdc3d3;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    user-select: none;
+    text-transform: capitalize;
+}
+.listing_search_filter_box_body_category p:hover {
+    color: #fff;
+    background-color: #1b1b1b;
+}
+.listing_search_filter_box_btn {
+    color: #fff;
+    width: 100%;
+    border: 0;
+    height: 40px;
+    margin: 10px 0px 50px;
+    background: #fa2276;
+    border-radius: 3px;
+}
+.listing_search_filter_box_btn:hover {
+    color: #fa2276;
+    border: 1px solid #fa2276;
+    background: transparent;
+}
+.listing_search_title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}

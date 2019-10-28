@@ -1,0 +1,118 @@
+.box_container {
+    background-image: url(http://gambolthemes.net/brexit-black/images/background.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0px;
+    min-height: 100vh;
+}
+.box_content {
+    background: #1b1b1b;
+    padding: 30px;
+    border-radius: 5px;
+    height: 100%;
+}
+.box_content>.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login_link {
+    text-align: right;
+}
+.login_link p {
+    color: #bdc3d3;
+    font-weight: 400;
+    font-size: 14px;
+}
+.login_link a {
+    color: cornflowerblue;
+    font-weight: 400;
+    font-size: 14px;
+}
+.login_link a:hover{
+    color: #fa2276;
+}
+.box_content>.body {
+    text-align: center;
+    padding: 80px 0px 100px;
+}
+.box_content>.body h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 23px;
+    font-weight: 500
+}
+.box_content>.body p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdc3d3;
+}
+.form_input_wrapper {
+    margin-bottom: 30px;
+}
+.form_control {
+    width: 100%;
+}
+.gender {
+    text-align: left;
+    color: #434f74 !important;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.label {
+    color: #bdc3d3;
+    font-size: 14px;
+}
+.btn {
+    background: #fa2276;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 20px;
+    border: 1px solid #fa2276;
+    outline: none;
+}
+.icon {
+    font-size: 18px;
+}
+.adornment {
+    height: 2em;
+}
+.email_error{
+    margin-top: 7px;
+    color: red;
+}
+.form_registration {
+    margin-top: 50px;
+}
+
+@media (max-width: 575.98px) {
+    .box_content>.header {
+        flex-direction: column;
+    }
+    .login_link {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .box_content>.body {
+        padding: 25px 0px 20px;
+    }
+    .box_content>.body h1 {
+        margin-bottom: 15px;
+    }
+    .form_registration {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 767.98px) and (min-width: 576px) {
+    .box_content {
+        margin: 0px 20px;
+    }
+    .form_registration {
+        margin-top: 35px;
+    }
+}

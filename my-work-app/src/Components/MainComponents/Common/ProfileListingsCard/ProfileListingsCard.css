@@ -1,0 +1,50 @@
+.profile_listings_card_item {
+    border: 1px solid #1b1b1b;
+    padding: 20px 0px;
+    background: #1b1b1b;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+.profile_listings_card_item_header img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.profile_listings_card_item_header h4 {
+    color: #fff;
+    font-size: 16px;
+    margin: 15px 0px;
+    font-weight: 500;
+}
+.profile_listings_card_item_header p {
+    color: #bdc3d3;
+    padding: 0px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.profile_listings_card_item_section {
+    color: #bdc3d3;
+    border: 1px solid #343434;
+    padding: 6px 20px;
+    font-size: 12px;
+    background: #343434;
+    font-weight: 400;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+.profile_listings_card_item_footer {
+    display: flex;
+    padding: 10px 0px;
+    border-top: 1px solid #000;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.profile_listings_card_item_footer li {
+    color: #bdc3d3;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+.sidebar_box {
+    top: 70px;
+    left: 0;
+    width: 230px;
+    bottom: 0;
+    overflow: auto;
+    z-index: 9;
+    position: fixed;
+    background: #1b1b1b;
+}
+.sidebar_box.min {
+    width: 75px;
+    animation: toggleSidebar .75s ease-in-out;
+}
+@keyframes toggleSidebar {
+    from {
+        width: 230px;
+    }
+    to {
+        width: 75px;
+    }
+}
+.sidebar_box.min .sidebar_section_name {
+    display: none;
+}
+.sidebar_section {
+    padding: 15px 0px 15px 15px;
+}
+.sidebar_section_link {
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    transition: all 0.3s;
+    align-items: center;
+}
+.sidebar_section_link:hover {
+    color: #fff;
+}
+.sidebar_section_link:hover .sidebar_section_icon {
+    color: #fff;
+}
+.sidebar_section_link_active .sidebar_section_icon {
+    color: #fff;
+}
+.sidebar_section_icon {
+    color: #bdc3d3;
+    margin: 0 7px 0 0;
+}
+.sidebar_deliver {
+    margin: 8px 0px !important;
+    background-color: #000 !important;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sidebar_box {
+        display: none;
+    }
+    .sidebar_box.min {
+        display: block;
+        animation: toggleSidebar .5s linear;
+    }
+    @keyframes toggleSidebar {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 75px;
+        }
+    }
+    .sidebar_section {
+        padding: 15px 0px 15px 15px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sidebar_box {
+        display: none;
+    }
+    .sidebar_box.min {
+        display: block;
+        animation: toggleSidebar .5s linear;
+    }
+    @keyframes toggleSidebar {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 75px;
+        }
+    }
+    .sidebar_section {
+        padding: 15px 0px 15px 15px;
+    }
+}
+@media (max-width: 575.98px) {
+    .sidebar_box {
+        display: none;
+    }
+    .sidebar_box.min {
+        display: block;
+        width: 150px;
+        animation: toggleSidebar .5s linear;
+    }
+    @keyframes toggleSidebar {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 150px;
+        }
+    }
+    .sidebar_box.min .sidebar_section_name {
+        display: block;
+    }
+    .sidebar_section {
+        padding: 15px 0px 15px 15px;
+    }
+}
